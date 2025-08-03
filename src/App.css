@@ -1,5 +1,5 @@
 #root {
-  max-width: 1880px;
+  width: 50%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -21,6 +21,10 @@
   background-color: #e9f0ff;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item-success {
+  background-color: #b2ffc6;
 }
 
 .btn i {

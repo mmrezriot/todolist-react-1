@@ -9,10 +9,10 @@ return(
     <div className="input-group shadow-sm w-75 mx-auto">
       <input
         type="text"
-        className="form-control rounded-start"
+        className="form-control rounded-end"
         placeholder="چی باید انجام بشه؟"
       />
-      <button className="btn btn-primary rounded-end" type="button">
+      <button className="btn btn-primary rounded-start" type="button">
        ایجاد 
       </button>
     </div>
