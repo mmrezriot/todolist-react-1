@@ -15,9 +15,10 @@ const ItemList= () =>{
   }
 
   const deleteTaskItem = (id) =>{
+   if(confirm("آیا از حذف این مورد مطمئن هستید؟")) { ;
     let newTask = taskItem.filter(t => t.id !== id);
     setTaskItem(newTask)
-
+  }
   }
 
    if (taskItem.length) {
