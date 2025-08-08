@@ -10,16 +10,7 @@ function App() {
   
   
   const [taskItem , setTaskItem] = useState([
-    {
-      title:"آیتم تستی اول",
-      id : 1,
-      done:true
-    },
-    {
-      title:"آیتم تستی دوم",
-      id : 2,
-      done:false
-    }
+ 
 ])
   
 
