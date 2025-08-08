@@ -9,9 +9,7 @@ import { itemContex } from './context.jsx'
 function App() {
   
   
-  const [taskItem , setTaskItem] = useState([
- 
-])
+  const [taskItem , setTaskItem] = useState([])
   
 
   return (
