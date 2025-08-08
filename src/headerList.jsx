@@ -12,9 +12,15 @@ const HeaderList= ()=>{
   } 
 
   const addTask = (e)=>{
+    if(!task.trim()) {
+      alert("لطفا یک عنوان برای کار وارد کنید");
+      e.preventDefault();
+      return;
+    } else{
     e.preventDefault();
     setTaskItem([...taskItem , {id: crypto.randomUUID() , title : task , done :false}])
     setTask("")
+  }
   }
 
 
